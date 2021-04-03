@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+b {
+    font-size: 80px;
+    text-align: middle;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+
+    color: white;
+}
+ .block {
+    text-indent: 30px;
+    color: yellowgreen;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: start;
+}
+p {
+    text-indent: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    text-indent: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    color: white;
+}
+
+.inline {
+    color: yellowgreen;
+    text-align-last: center;
+}
+
+th {
+    text-indent: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+}
+.seo {
+    text-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    background-color:#222;
+}
