@@ -1,52 +1,100 @@
-* {
-    font-family: sans-serif;
+
+
+
+.body {
+    background-color: lightgray;
+    display: inline-flex;
+    flex-wrap: wrap;
 }
 
+
+.links {
+    background-color: lightgray;
+    width: inherit;
+    height: 20px;
+    margin left: 20px;
+    padding: 20px;
+    
+}
+
+
+
+.link1 {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link2 {
+    text-decoration: none;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link3 {
+    text-decoration: none;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link4 {
+    text-decoration: none;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;}
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #1d1e20;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container {}
-
-.section {
-    width: 49%;
-    display: inline-block;
-    color: #fff;
-}
-
-.section-left {}
-
-.section-left img {
-    width: 100%;
-    height: 100vh;
-}
-
-.section-left .image-text {
-    /* position: absolute; */
-    bottom: 50px;
+.para1 {
+    color: gray;
     text-align: center;
-    width: 49%;
 }
 
-.section-left .image-text div {
-    font-weight: bold;
-    color: #36ad36;
+.para2 {
+    color: rgb(36, 35, 35);
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 50px;
 }
 
-.section-right {
-    position: absolute;
-    top: 50px;
-    padding: 5px;
-    padding-left: 10px;
-}
-
-.section-right .about-me {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.section-right .services {
-    width: 49%;
+.img1 {
     display: inline-block;
+    margin: 30px;
+    border: 20px;
+    background-color: lightgray;
+}
+
+.text {
+    margin: 21px;
+}
+
+.footer {
+    background-color: black ;
+    padding: 84px;
+    height: 20px;
+    text-align: center;
+    color: lightgray;
+}
+
+.power {
+    color: lightgray;
+    font-family: cursive;
+    
 }
