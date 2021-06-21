@@ -162,45 +162,84 @@
 //     console.log(num + " X " + i +" = " + num*i);
 // }
 
-var x = 10;
+// var x = 10;
 
-function createFunction1() {
-    var x = 20;
-    return new Function('return x;'); // this |x| refers global |x|
-}
+// function createFunction1() {
+//     var x = 20;
+//     return new Function('return x;'); // this |x| refers global |x|
+// }
 
-function createFunction2() {
-    var x = 20;
-    function f() {
-        return x; // this |x| refers local |x| above
-    }
-    return f;
-}
+// function createFunction2() {
+//     var x = 20;
+//     function f() {
+//         return x; // this |x| refers local |x| above
+//     }
+//     return f;
+// }
 
-var f1 = createFunction1();
-console.log(f1());          // 10
-var f2 = createFunction2();
-console.log(f2());          // 20s
+// var f1 = createFunction1();
+// console.log(f1());          // 10
+// var f2 = createFunction2();
+// console.log(f2());          // 20s
 
+// i = 8;
+// i --
+// i = 7
+// i = i-2
+// i = 5
+// i -= 2
 
+// for (var i = 10; i > 0; i-=2) {
+//     console.log("hello user " + i);
+// }
 
+// Functions
 
+//  function add (num1, num2) {
+//     return num1  + num2;
+//  }
 
+//  function substract (num1, num2) {
+//     return num1  - num2;
+//  }   
 
+// var result = add (17, 3);
+// var result2 = substract (result, 5);
+// console.log(result2);
 
+// ARRAY 
 
+// var months = [
+//     "January",
+//     "Feburary",
+//     "March",
+// ];
+ 
+// console.log(months);
 
+// var arr = [1,2,3,4];
+//arr.splice(0, 1);
+//arr.shift();
+//console.log(arr.slice(1,3));
 
+// var arr = ["Apple", "Mango", "Banana", "Orange" ];
+// var found = false;
+// for (var i = 0; i < arr.length; i++) {
+//     console.log ("Finding in "  + i)
+//     if (arr[i] === "Apple1"){
+//         console.log("Found");
+//         found = true;
+//         break;
+//     }
+// }
 
+// if (found){
+//     console.log("Found");
+// }
 
+var date = prompt("Enter your birth date");
+var date = Date() ;
 
-
-
-
-
-
-
-
-
+console.log("num");
 
 
