@@ -91,42 +91,77 @@
 // var random = 10 + Number('10.5') + 30;
 // console.log(random);
 
- var dahiAvailable = false;
- var tomatoAvailable = true;
+//  var dahiAvailable = false;
+//  var tomatoAvailable = true;
 
-if (dahiAvailable) {
-    console.log("1 Pao dahi dedo!");
-} else if (tomatoAvailable) {
-    console.log("1 Pao timatar dedo!");
-} else {
-    console.log("1 Pao doodh dedo!");
+// if (dahiAvailable) {
+//     console.log("1 Pao dahi dedo!");
+// } else if (tomatoAvailable) {
+//     console.log("1 Pao timatar dedo!");
+// } else {
+//     console.log("1 Pao doodh dedo!");
+// }
+// var random = Math.random();
+// random = Math.round(random * 10);
+// var askedNum = prompt('Write a number');
+// askedNum = Number(askedNum);
+
+// if (askedNum === random) {
+//     console.log("You Win!");
+// } else {
+//     console.log("You Lose!");
+// }
+// console.log(random);
+// console.log(askedNum);
+// console.log(3 ** 3);
+
+// var arr = ["Mango", "Apple", "Banana"];
+// var userAsked =prompt("Enter fruit name");
+// var isAvailable = false;
+
+// for (var i = 0; i < arr.length; i++) {
+//     if (userAsked.toLowerCase() === arr[i].toLowerCase()) {
+//         isAvailable = true;
+//         break;
+//     }
+// }
+
+// if (isAvailable){
+//     console.log("This fruit is available");
+// } else {
+//     console.log ("This fruit is not available");
+// }
+
+// var notAllowed = "Salay";
+// var para = prompt("Enter Anything");
+
+// if (para.indexOf(notAllowed) !== -1) {
+//     alert("This word is not allowed");
+// } else {
+//     console.log("All clear");
+// }
+
+// var date = new Date ();
+// var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+// console.log(dayNames[date.getDay()]);
+
+// function abc (x) {
+//     return function (y) {
+//         return x + y;
+//     }
+// }
+
+// var called = abc(5);
+// console.log(called(3))
+
+function abc (current, end) {
+    console.log(current);
+    if (current >= end) {
+        return "Done";
+    }
+    return abc(++current, end);
 }
-var random = Math.random();
-random = Math.round(random * 10);
-var askedNum = prompt('Write a number');
-askedNum = Number(askedNum);
-
-if (askedNum === random) {
-    console.log("You Win!");
-} else {
-    console.log("You Lose!");
-}
-console.log(random);
-console.log(askedNum);
-console.log(3 ** 3);
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(abc(1, 5));
 
 
 
