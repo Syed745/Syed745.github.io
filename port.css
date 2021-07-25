@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,600&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin:auto ;
+}
+/* navber styling */
+.navber{
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    background:  rgb(14, 5, 7);
+    font-family: 'Ubuntu' , sans-serif;
+    transition: all 0.3s ease;
+}
+.navber.sticky{
+    padding: 15px 0;
+    background: crimson;
+}
+.navber .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navber .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.logo span{
+    color: crimson;
+}
+.navber .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navber .menu li a{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 25px;
+}
+.navber .menu li a:hover{
+    color: crimson;
+transition: 0.5s;
+}
+/* menu btn styling */
+.menu-btn{
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+
+/* home section styling */
+
+.home{
+    display: flex;
+    background: url("images/office.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.text-1{
+    font-size: 27px;
+    color:whitesmoke;
+}
+.text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: 5px;
+    color:whitesmoke;
+}
+.text-3{
+    font-size: 40px;
+    margin: 3px 0;
+    color:whitesmoke;
+}
+.text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
+/* res media qeu start */
+@media (max-width: 947px) {
+    .max-width{
+        padding: 0 50px;    
+    }
+    .navber .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background: #111;
+        text-align: center;
+        padding-top: 80px;
+    }
+    .navber .menu li{
+        display: block;
+    }
+    .navber .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+}
