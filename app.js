@@ -68,7 +68,7 @@ function myArea(name, gender, address, education, profession){
   this.profession = profession;  
 }
 
-function myfun(){
+function myFun(){
   var personName = document.getElementById("name").value;
   var address = document.getElementById("address").value;
   var education = document.getElementById("education").value;
