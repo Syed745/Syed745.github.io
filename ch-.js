@@ -26,24 +26,24 @@
 // var arr = ["syed", "Bilal", "ali"];
 //  arr.pop();
 //  console.log(arr)
-// function multiplyBy (){
-//     num1 = document.getElementById("firstNumber").value;
-//     num2 = document.getElementById("secondNumber").value;
-//     document.getElementById("result").innerHTML = num1 * num2;
-// }
+ function multiplyBy (){
+     num1 = document.getElementById("firstNumber").value;
+     num2 = document.getElementById("secondNumber").value;
+     document.getElementById("result").innerHTML = num1 * num2;
+ }
 
-// function divideBy() {
-//     num1 = document.getElementById("firstNumber").value;
-//     num2 = document.getElementById("secondNumber").value;
-//     document.getElementById("result").innerHTML = num1 / num2;
-// }
-function exam (totMarks,isExam){
+function divideBy() {
+    num1 = document.getElementById("firstNumber").value;
+    num2 = document.getElementById("secondNumber").value;
+    document.getElementById("result").innerHTML = num1 / num2;
+ }
+// function exam (totMarks,isExam){
 
-if(isExam ){
-    return totMarks >= 90;
-}
-return (totMarks >= 89 && totMarks <= 100);
-}
-console.log(exam(89));
-console.log(exam(11));
-console.log(exam(95));
+// if(isExam ){
+//     return totMarks >= 90;
+// }
+// return (totMarks >= 89 && totMarks <= 100);
+// }
+// console.log(exam(89));
+// console.log(exam(11));
+// console.log(exam(95));

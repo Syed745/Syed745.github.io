@@ -1,10 +1,45 @@
-/* body {
-    background-color: black;
+div{
+    text-align: center;
+}
+h1{
+    display: inline;
+    font-size: 100px;
+    text-decoration: aliceblue;
+    border: ivory;
+}
+.heading{
+    font-size: 50px;
+    font-family: monospace;
+}
+#min{
+    margin-right:50px ;
+    font-family: monospace;
+    font-weight: 10;
+}
+#sec{
+    margin-right:50px ;
+    font-family: monospace;
+    font-weight: 10;
+}
+#msec{
+    
+    font-family: monospace;
+    font-weight: 10;
+    
+}
+button{
+    font-weight: 900;
+    font-size: 70px;
+    border-radius: 20px;
+    background-color: lightgreen;
+}
+ body { 
+    background-color: rgb(221, 165, 165);
     text-align: center;
     
 }
 
-h1 {
+/* h1 {
     color: white;
     display: inline-block;
     width: 100px;
@@ -14,4 +49,4 @@ h1 {
 .heading{
     font-family: sans-serif;
     color: rgb(37, 27, 14);
-} */
+} */ 
