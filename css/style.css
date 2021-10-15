@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+i{
+    color: rgb(193, 197, 200);
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 25px;
+    height: 40px;
+    margin-top: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(193, 197, 200);
+}
+.search{
+    margin-bottom: 40px;
+}
+.p1{
+    text-align: center;
+    background-color: rgb(238, 237, 232);
+    height: 40px;
+    padding-top: 9px;
+}
+.p1 a{
+    color: blue;
+}
+.iphone13pro{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.oh{
+    text-align: center;
+    color: rgb(85, 83, 83);
+}
+.learn{
+    font-size: 20px;
+    color: blue;
+    margin-left: 710px;
+    font-family: sans-serif;
+}
+.img{
+    margin-left: 550px;
+    width: 500px;
+}
+.seond-heading{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    color: honeydew;
+}
+.super-power{
+    text-align: center;
+    color: rgb(202, 135, 180)
+}
+.middle{
+    background-color: rgba(34, 4, 24, 0.89);
+}
+.second-img{
+    margin-left: 400px;
+    width: 800px;
+}
+.lear{
+    font-size: 20px;
+    color: blue;
+    margin-left: 680px;
+    font-family: sans-serif;
+}
+.apple {
+    color: black;
+    font-size: 50px;
+    margin-left: 700px;
+}
+.watch{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    font-family: sans-serif;
+}
+#img{
+    background-color:  rgba(238, 237, 232);
+}
+#img i{
+    font-size: 60px;
+    color: black;
+    margin-left: 650px;
+    padding-top: 20px;
+}
+.Series{
+    margin-left: 740px;
+    letter-spacing: 5px;
+    color: rgb(109, 34, 7);
+    font-size: 20px;
+}
+.full{
+    margin-left: 655px;
+    letter-spacing: 3px;
+}
+.last{
+    margin-left: 700px;
+    font-weight: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 15px;
+}
+#last-img{
+    width:500px;
+    margin-left: 560px;
+}
+.p-last{
+    text-align: center;
+    width: 1000px;
+    margin-left: 330px;
+    text-align: justify ;
+    font-size: 13px;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+.bottom{
+    background-color:  rgba(238, 237, 232);
+height: 800px;
+}
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+table{
+    margin-left: 330px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: gray;
+    width: 1000px;
+}
+#more{
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: gray;
+    width: 1000px;
+text-align: center;
+margin-left: 220px;
+margin-top: 25px;
+}
+.more{
+    text-decoration: none;
+    color: blue;
+    text-underline-offset: unset;
+}
+.Copyright{
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: gray;
+    width: 1000px;
+text-align: center;
+margin-left: 290px;
+
+}
